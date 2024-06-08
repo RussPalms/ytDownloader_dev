@@ -90,7 +90,7 @@
 				"deb"
 			],
 			"category": "Utility",
-			"artifactName": "${productName}_Linux.${ext}"
+			"artifactName": "${productName}_Linux_${arch}.${ext}"
 		},
 		"snap": {
 			"grade": "stable",
@@ -102,7 +102,7 @@
 				"msi",
 				"zip"
 			],
-			"artifactName": "${productName}_Win.${ext}"
+			"artifactName": "${productName}_Win_${arch}.${ext}"
 		},
 		"nsis": {
 			"allowToChangeInstallationDirectory": true,
